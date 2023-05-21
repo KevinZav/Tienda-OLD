@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+*:focus { outline: none; }
+
+.header-action{
+    background-color: rgba(52, 58, 64,.2);
+    border-bottom: 4px solid #0077c8;
+    color: rgba(52, 58, 64,.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.header-action h1{
+    font-size: 1.8rem;
+}
+
+.form-busqueda{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80% !important;
+}
+.form-busqueda input[type="text"],
+select{
+    border: 1px solid rgba(52, 58, 64,.8);
+    border-radius: 4px;
+    color: rgba(52, 58, 64);
+    padding: 4px;
+    width: 35%;
+}
+.form-busqueda button{
+    color: rgba(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 0px 4px 4px 0px;
+    height: 40px;
+    padding: 7px;
+    /* width: 40px; */
+}
+.container-table{
+    height: 500px;
+    overflow: scroll;
+}
+
+.table .btn-action{
+    width: 15%;
+}
+.table th, .table td{
+    vertical-align: middle !important;
+}
+
+.btn-update{
+    background-color: rgba(253, 126, 20,.8);
+    color: #fff;
+}
+
+.btn-update:hover{
+    background-color: rgb(253, 126, 20);
+    color: #fff;
+}
+
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.work-space{
+    width: 85%;
+}
+.aside{
+    background-color: #343a40;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 15%;
+}
+.option-button{
+    border: 2px solid transparent;
+    color: #aeb2b6;
+    font-size: 1.1rem;
+    padding: 7px;
+    text-decoration: none;
+    transition: all 240ms ease-in-out;
+    width: 100%;
+}
+
+.option-button:hover, .option-selected{
+    text-decoration: none;
+}
+
+.option-button.c-orange:hover,.c-orange.option-selected{
+    border-bottom-color: #fd7e14;
+    color:#fd7e14;
+}
+
+.option-button.c-blue:hover,.c-blue.option-selected{
+    border-bottom-color: #0077c8;
+    color:#0077c8;
+}
+
+.option-button.c-green:hover,.c-green.option-selected{
+    border-bottom-color: #009f4d;
+    color:#009f4d;
+}
+
+.option-button.c-red:hover,.c-red.option-selected{
+    background-color: rgba(220, 53, 69,.2);
+    border-bottom-color: #dc3545;
+    color:#dc3545;
+}
+
+.option-button.c-pink:hover,.c-pink.option-selected{
+    border-bottom-color: #e83e8c;
+    color:#e83e8c;
+}

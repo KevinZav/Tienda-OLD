@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    border-color: transparent;
+}
+
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://s1.1zoom.me/big3/854/People_Silhouette_Tourist_Suitcase_571311_3100x1999.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    height: inherit;
+    background-image: linear-gradient(43deg, rgba(0, 219, 222, 0.7) 0%, rgba(252, 0, 255, .7) 100%);
+}
+
+.col {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 34%;
+    height: auto;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.form h1 {
+    color: #495057;
+}
+
+.icono {
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.radius {
+    width: 100px !important;
+    height: 100px !important;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: #fff;
+    position: relative;
+    top: -3.5em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control label {
+    width: 10%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #495057;
+    border-radius: 10px 0 0 10px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    color: #495057;
+    font-size: 1.5em;
+    border-radius: 0px 10px 10px 0px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5em;
+    width: 40%;
+    color: #fff;
+    background-color: rgba(252, 0, 255);
+    margin-bottom: 30px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    transition: background 144ms linear;
+}
+
+button:hover {
+    background-color: rgb(51, 81, 230);
+    cursor: pointer;
+}
+
+.password-label:hover {
+    cursor: pointer;
+    color: rgb(51, 81, 230)
+}
+.alert-danger{
+    width: 90%;
+    color:rgba(252, 0, 255, 1);
+    background-color:rgba(252, 0, 255, .2);
+    padding: 10px;
+}
+.display-none{
+    display: none;
+}
