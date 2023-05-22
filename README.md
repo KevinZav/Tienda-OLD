@@ -12,3 +12,6 @@ SELECT @@character_set_database;
 
 -Comando para cambiar el charset de la db
 ALTER DATABASE negocio CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+Video de apoyo:
+https://youtu.be/M7PlsDDWl_w
